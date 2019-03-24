@@ -22,8 +22,6 @@ namespace Ecosysteme
             Simulation simu = new Simulation(15, 32, 100, 100);
             simu.Simuler();
             Console.WriteLine(simu);
-
-            Console.ReadKey();
         }
     }
 }
